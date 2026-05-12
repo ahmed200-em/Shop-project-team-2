@@ -63,11 +63,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 200vh;
 }
-
+/* this is the main image */
 .section2-image {
-  width: 35rem;
-  height: 25rem;
+  width: 37.5rem;
+  height: 24rem;
   margin-top: 21px;
   border-radius: 10px;
 }
@@ -76,7 +77,7 @@
   display: flex;
   flex-direction: row;
 }
-
+/* this is the description image  */
 .container1-description {
   display: flex;
   flex-direction: column;
@@ -84,24 +85,25 @@
   margin: 20px 0 0 20px;
   border-radius: 10px;
   border: 1px solid rgb(201, 198, 198);
-  padding: 25px 30px 25px 15px;
-  height: 25rem;
+  padding: 25px 30px 25px 25px;
+  height: 24rem;
 }
-
+/* the description title */
 .container1-description h3 {
-  color: rgb(27, 142, 102);
+  color: #0D9488;
   background-color: rgb(230, 244, 243);
   width: 6rem;
-  border: 1px solid rgb(27, 142, 102);
+  border: 1px solid #0D9489;
   border-radius: 20px;
   padding: 5px 0px 5px 0px;
   font-size: 0.7rem;
   text-align: center;
 }
-
+/* the descriptiotion paragraph */
 .container1-description p {
   margin-bottom: 0px;
   color: gray;
+  font-size: 13px;
 }
 
 .container1-description h1 {
@@ -109,13 +111,15 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* the list checked  */
 .container1-description div {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
 }
+/* icon checked */
 .icon-checked {
-  color: rgb(27, 142, 102);
+  color: #0D9488;
 }
 .container1-description .div1 {
   margin-top: 15px;
@@ -125,8 +129,9 @@
   font-size: 15px;
   margin-top: 2px;
 }
-.container1-description .div4 {
-  background-color: rgb(27, 142, 102);
+/* styling the button explore */
+.container1-description .button-explore {
+  background-color: #0D9488;
   width: 11.5rem;
   height: 2.5rem;
   border-radius: 10px;
@@ -135,7 +140,49 @@
   justify-content: center;
   align-items: center;
 }
-.div4 a {
+/* this is the green explore button text a*/
+.button-explore a {
   color: white;
   text-decoration: none;
+}
+/* this the three card styling */
+  .three-card {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+}
+.three-card-image1 {
+  width: 16rem;
+  height: 12rem;
+  border-radius: 10px 10px 0 0;
+}
+/* ! styling thw whole card */
+.card-1 {
+  /* margin: 20px; */
+  border: 1px solid rgb(181, 180, 180);
+  width: 16rem;
+  border-radius: 10px 10px 10px 10px;
+  height: 320px;
+}
+/* the card description */
+.describ-image{
+    margin: 20px;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.describ-image p{
+    color: gray;
+}
+.describ-image a{
+    color: #0D9489;
+    text-decoration: none;
+    padding: 0 7px 0 0 ;
+}
+.describ-image p{
+    margin-top: 8px;
+}
+.icon-direction2{
+    color: #0D9489;
 }
