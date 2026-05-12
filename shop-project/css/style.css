@@ -20,11 +20,10 @@
 
 /* ?FIRST ICON */
 
-
 .container-icon {
-    display: flex;
-    gap: 2rem;
-    color: rgb(102, 102, 102);
+  display: flex;
+  gap: 2rem;
+  color: rgb(102, 102, 102);
 }
 
 .icon1 {
@@ -53,146 +52,124 @@
 /* !SECOND */
 
 .secondheader {
+  width: 100%;
 
-    width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 
-    padding-top: 4%;
-    padding-bottom: 4%;
-
-    display: flex;
-    /* justify-content: space-between; */
-    flex-direction: column;
-    /* background-color: rgb(55, 55, 87); */
-    /* background-color: aliceblue; */
-
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* background-color: rgb(55, 55, 87); */
+  /* background-color: aliceblue; */
 }
 
 .center {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* gap: 100px;  */
-    border-bottom: 1px solid gray;
-    padding-bottom: 20px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* gap: 100px;  */
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
 }
-
-
 
 /* !TITLE */
 
-
 .title i {
-
-    color: rgb(49, 131, 48);
+  color: rgb(49, 131, 48);
 }
 
 /* !INPUT */
 
 .container-input {
-
-    width: 50%;
-    border: 1px solid gray;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px 10px 1px 10px;
-
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 10px 1px 10px;
 }
 
 .container-input input {
-    padding-right: 56%;
-   
-    border: none;
+  padding-right: 56%;
 
+  border: none;
 }
 
 .container-input i {
-    color: rgb(91, 90, 90);
+  color: rgb(91, 90, 90);
 }
 
 .container-input button {
-    border: none;
-    background-color: rgb(49, 131, 48);
-    border-radius: 5px;
-    padding: 15px 25px 15px 25px;
-    color: aliceblue;
-
+  border: none;
+  background-color: rgb(49, 131, 48);
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  color: aliceblue;
 }
 
 /* !ICON */
 
 .container-icon2 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    /* font-size: large; */
-    color: rgb(112, 111, 111);
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  /* font-size: large; */
+  color: rgb(112, 111, 111);
 }
 
 .nmb {
-    position: absolute;
-    background-color: rgb(49, 131, 48);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    right: -8px;
-    top: -10px;
-
+  position: absolute;
+  background-color: rgb(49, 131, 48);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  right: -8px;
+  top: -10px;
 }
 
 .nmb-icon {
-    position: relative;
-    display: inline-block;
-    font-size: 30px;
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
 }
 
 /* !NAVIGATION BAR */
 
 .container-nav {
-    display: flex;
-    flex-direction: row;
-    /* gap: 30px; */
-    justify-content: center;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  /* gap: 30px; */
+  justify-content: center;
+  padding-top: 20px;
 }
 
 /* * UL */
 
 .navigation .nav-ul {
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
-    /* padding-right: 305px; */
-    color: gray;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  /* padding-right: 305px; */
+  color: gray;
 }
- .nav-ul li{
-    list-style: none;
-   
- }
- .nav-ul a{
-    text-decoration: none;
-    color: rgb(77, 77, 77);
- }
-.nav-ul a:hover{
-    color: rgb(3, 97, 3);
+.nav-ul li {
+  list-style: none;
 }
-
-
-
-
-
-
-
+.nav-ul a {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+.nav-ul a:hover {
+  color: rgb(3, 97, 3);
+}
 
 /* !second section */
 .second-section {
@@ -227,10 +204,10 @@
 }
 /* the description title */
 .container1-description h3 {
-  color: #0D9488;
+  color: #0d9488;
   background-color: rgb(230, 244, 243);
   width: 6rem;
-  border: 1px solid #0D9489;
+  border: 1px solid #0d9489;
   border-radius: 20px;
   padding: 5px 0px 5px 0px;
   font-size: 0.7rem;
@@ -256,7 +233,7 @@
 }
 /* icon checked */
 .icon-checked {
-  color: #0D9488;
+  color: #0d9488;
 }
 .container1-description .div1 {
   margin-top: 15px;
@@ -268,7 +245,7 @@
 }
 /* styling the button explore */
 .container1-description .button-explore {
-  background-color: #0D9488;
+  background-color: #0d9488;
   width: 11.5rem;
   height: 2.5rem;
   border-radius: 10px;
@@ -283,7 +260,7 @@
   text-decoration: none;
 }
 /* this the three card styling */
-  .three-card {
+.three-card {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -300,26 +277,26 @@
   border: 1px solid rgb(181, 180, 180);
   width: 16rem;
   border-radius: 10px 10px 10px 10px;
-  height: 320px;
+  height: 330px;
 }
 /* the card description */
-.describ-image{
-    margin: 20px;
-    display: flex;
-    gap: 0.5rem;
-    flex-direction: column;
+.describ-image {
+  margin: 20px;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
 }
-.describ-image p{
-    color: gray;
+.describ-image p {
+  color: gray;
 }
-.describ-image a{
-    color: #0D9489;
-    text-decoration: none;
-    padding: 0 7px 0 0 ;
+.describ-image a {
+  color: #0d9489;
+  text-decoration: none;
+  padding: 0 7px 0 0;
 }
-.describ-image p{
-    margin-top: 8px;
+.describ-image p {
+  margin-top: 8px;
 }
-.icon-direction2{
-    color: #0D9489;
+.icon-direction2 {
+  color: #0d9489;
 }
