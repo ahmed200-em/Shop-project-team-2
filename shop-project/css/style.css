@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
 
 /* TODO THIS IS HEADER */
@@ -22,9 +23,12 @@
 
 
 .container-icon {
-    display: flex;
-    gap: 2rem;
-    color: rgb(102, 102, 102);
+  display: flex;
+  gap: 2rem;
+  color: gray;
+  display: flex;
+  gap: 2rem;
+  color: rgb(102, 102, 102);
 }
 
 .icon1 {
@@ -53,28 +57,23 @@
 /* !SECOND */
 
 .secondheader {
-
-    width: 100%;
-
-    padding-top: 4%;
-    padding-bottom: 4%;
-
-    display: flex;
-    /* justify-content: space-between; */
-    flex-direction: column;
-    /* background-color: rgb(55, 55, 87); */
-    /* background-color: aliceblue; */
+  /* width: 100%; */
+  padding-top: 4%;
+  padding-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
 }
 
 .center {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* gap: 100px;  */
-    border-bottom: 1px solid gray;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* gap: 100px; */
+  border-bottom: 1px solid gray;
+  padding-bottom: 1.5rem;
 
 }
 
@@ -85,40 +84,40 @@
 
 .title i {
 
-    color: rgb(49, 131, 48);
+  color: rgb(49, 131, 48);
 }
 
 /* !INPUT */
 
 .container-input {
 
-    width: 50%;
-    border: 1px solid gray;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px 10px 1px 10px;
+  width: 35%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 2rem;
 
 }
 
 .container-input input {
-    padding-right: 56%;
-   
-    border: none;
+  padding-right: 48%;
+  padding-left: 0.5rem;
+  border: none;
 
 }
 
 .container-input i {
-    color: rgb(91, 90, 90);
+  color: rgb(91, 90, 90);
 }
 
 .container-input button {
-    border: none;
-    background-color: rgb(49, 131, 48);
-    border-radius: 5px;
-    padding: 15px 25px 15px 25px;
-    color: aliceblue;
+  border: none;
+  background-color: rgb(49, 131, 48);
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  color: aliceblue;
 
 }
 
@@ -126,75 +125,331 @@
 
 .container-icon2 {
 
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    /* font-size: large; */
-    color: rgb(112, 111, 111);
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  /* font-size: large; */
+  color: rgb(112, 111, 111);
 }
 
 .nmb {
-    position: absolute;
-    background-color: rgb(49, 131, 48);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    right: -8px;
-    top: -10px;
+  position: absolute;
+  background-color: rgb(49, 131, 48);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  right: -8px;
+  top: -10px;
 
 }
 
 .nmb-icon {
-    position: relative;
-    display: inline-block;
-    font-size: 30px;
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
 }
 
 /* !NAVIGATION BAR */
 
 .container-nav {
-    display: flex;
-    flex-direction: row;
-    /* gap: 30px; */
-    justify-content: center;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  
 }
 
 /* * UL */
 
 .navigation .nav-ul {
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
-    /* padding-right: 305px; */
-    color: gray;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-right: 290px;
+  color: gray;
+  
 }
- .nav-ul li{
-    list-style: none;
-   
- }
- .nav-ul a{
-    text-decoration: none;
-    color: rgb(77, 77, 77);
- }
-.nav-ul a:hover{
-    color: rgb(3, 97, 3);
+
+.nav-ul li {
+  list-style: none;
 
 }
 
+.nav-ul a {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+
+.nav-ul a:hover {
+  color: rgb(3, 97, 3);
+
+}
+
+/* TODO THIS IS MAIN */
+/* !HERO SECTION */
 
 
+.first-section {
+  width: 99vw;
+padding-left: 100px;
+  background-color: rgb(239, 237, 237);
+}
+
+.size{
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: -1px;
+  padding-right: 100px;
+}
+.top-products {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+/* !LEFT SIDE */
+
+.left-side {
+  width: 38%;
+  padding-top: 4%;
+}
+
+.tag {
+  display: inline-block;
+  background: #d6f6f4;
+  color: #05923d;
+  padding: 1% 2%;
+  border: 1px solid rgb(40, 208, 102);
+  border-radius: 20px;
+  padding-bottom: 2%;
+}
+
+.left-side h1 {
+  font-size: 200%;
+  line-height: 1.2;
+  padding-bottom: 4%;
+}
+
+.left-side p {
+  color: gray;
+  line-height: 1.8;
+  padding-bottom: 6%;
+}
+
+/* ?BUTTONS */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding-bottom: 8%;
+}
+
+.btn1 {
+  text-decoration: none;
+  background: #05923d;
+  color: white;
+  padding: 3% 6%;
+  border-radius: 6px;
+}
+
+.btn2 {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 3% 6%;
+}
 
 
+.features {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.features p {
+  color: gray;
+  font-size: 78%;
+}
+
+/* !RIGHT SIDE */
+
+.right-side {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+
+.containe-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+.card {
+  width: 48%;
+  background: white;
+  border-radius: 12px;
+  padding: 3%;
+  border: 1px solid #e7e7e7;
+}
+
+.card img {
+  width: 76%;
+  display: flex;
+}
+
+.small-tag2 {
+  display: inline-block;
+  border-radius: 5px;
+  padding-bottom: - 5%;
+  font-size: 80%;
+  background: #d6f6f4;
+  color: #05923d;
+  padding: 1% 2%;
+  border: 1px solid rgb(40, 208, 102);
+}
+
+.small-tag1 {
+  display: inline-block;
+  border-radius: 5px;
+  padding-bottom: 5%;
+  font-size: 80%;
+  color: rgb(84, 84, 84);
+  padding: 1% 2%;
+  border: 1px solid rgb(199, 196, 196);
+}
+
+.card h3 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.price {
+  color: #19b69a;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.old-price {
+  color: gray;
+  text-decoration: line-through;
+  padding-left: 2%;
+}
 
 
+.solo-card {
+  background: white;
+  border-radius: 12px;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  border: 1px solid #e7e7e7;
+}
 
+.solo-card img {
+  width: 25%;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.solo-card-content h2 {
+  padding-bottom: 3%;
+}
+
+.solo-card-content p {
+  color: gray;
+  line-height: 1.5;
+  padding-bottom: 4%;
+}
+
+/* BOTTOM PRODUCTS */
+
+.bottom-products {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 40%;
+  background: white;
+  border: 1px solid #ddd;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: -15px;
+}
+
+.arrow.right {
+  right: -15px;
+}
+
+.product {
+  width: 24%;
+  background: white;
+  border-radius: 12px;
+  padding: 2%;
+  border: 1px solid #e7e7e7;
+}
+
+.product img {
+  width: 70%;
+  display: block;
+  padding: auto;
+}
+
+.product h3 {
+  padding-top: 6%;
+  padding-bottom: 3%;
+  color: #17203d;
+}
+
+.product p {
+  color: gray;
+  line-height: 1.6;
+  padding-bottom: 5%;
+}
+
+
+.dots {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  gap: 1%;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #19b69a;
+  width: 25px;
+  border-radius: 10px;
+}
 
 
 
@@ -206,6 +461,7 @@
   flex-direction: column;
   height: 200vh;
 }
+
 /* this is the main image */
 .section2-image {
   width: 37.5rem;
@@ -218,6 +474,7 @@
   display: flex;
   flex-direction: row;
 }
+
 /* this is the description image  */
 .container1-description {
   display: flex;
@@ -229,6 +486,7 @@
   padding: 25px 30px 25px 25px;
   height: 24rem;
 }
+
 /* the description title */
 .container1-description h3 {
   color: #0D9488;
@@ -240,6 +498,7 @@
   font-size: 0.7rem;
   text-align: center;
 }
+
 /* the descriptiotion paragraph */
 .container1-description p {
   margin-bottom: 0px;
@@ -252,24 +511,29 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 /* the list checked  */
 .container1-description div {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
 }
+
 /* icon checked */
 .icon-checked {
   color: #0D9488;
 }
+
 .container1-description .div1 {
   margin-top: 15px;
 }
+
 .icon-direction {
   color: white;
   font-size: 15px;
   margin-top: 2px;
 }
+
 /* styling the button explore */
 .container1-description .button-explore {
   background-color: #0D9488;
@@ -281,23 +545,27 @@
   justify-content: center;
   align-items: center;
 }
+
 /* this is the green explore button text a*/
 .button-explore a {
   color: white;
   text-decoration: none;
 }
+
 /* this the three card styling */
-  .three-card {
+.three-card {
   display: flex;
   flex-direction: row;
   gap: 15px;
   margin-top: 20px;
 }
+
 .three-card-image1 {
   width: 16rem;
   height: 12rem;
   border-radius: 10px 10px 0 0;
 }
+
 /* ! styling thw whole card */
 .card-1 {
   /* margin: 20px; */
@@ -306,24 +574,29 @@
   border-radius: 10px 10px 10px 10px;
   height: 320px;
 }
+
 /* the card description */
-.describ-image{
-    margin: 20px;
-    display: flex;
-    gap: 0.5rem;
-    flex-direction: column;
+.describ-image {
+  margin: 20px;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
 }
-.describ-image p{
-    color: gray;
+
+.describ-image p {
+  color: gray;
 }
-.describ-image a{
-    color: #0D9489;
-    text-decoration: none;
-    padding: 0 7px 0 0 ;
+
+.describ-image a {
+  color: #0D9489;
+  text-decoration: none;
+  padding: 0 7px 0 0;
 }
-.describ-image p{
-    margin-top: 8px;
+
+.describ-image p {
+  margin-top: 8px;
 }
-.icon-direction2{
-    color: #0D9489;
+
+.icon-direction2 {
+  color: #0D9489;
 }
