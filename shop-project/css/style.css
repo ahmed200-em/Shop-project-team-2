@@ -595,7 +595,156 @@ padding-left: 100px;
 .icon-direction2 {
   color: #0d9489;
 }
-/* the fourth section */
+
+/* !three section */
+
+.best-sellers{
+    width: 90%;
+    margin-inline: auto;
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+/* HEADER */
+
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
+
+.header p{
+    color: gray;
+}
+
+/* PRODUCTS */
+
+.productsfirst{
+    display: flex;
+    gap: 2%;
+}
+
+/* CARD */
+
+.card-center{
+    width: 25%;
+    background: white;
+    padding: 2%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    position: relative;
+}
+
+.card-center img{
+    width: 100%;
+}
+
+/* BADGES */
+
+.badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e0f7f3;
+    color: #19b69a;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.badge.red{ background: #ffe5e5; color: red; }
+.badge.orange{ background: #fff3e0; color: orange; }
+
+/* RATING */
+
+.rating{
+    color: orange;
+    font-size: 14px;
+}
+
+/* COLORS */
+
+.colors{
+    display: flex;
+    gap: 5px;
+}
+
+.c{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.c.red{background:red;}
+.c.blue{background:blue;}
+.c.green{background:#19b69a;}
+.c.black{background:black;}
+.c.yellow{background:gold;}
+.c.purple{background:purple;}
+.c.orange{background:orange;}
+
+/* PRICE */
+
+.prix{
+    font-weight: bold;
+}
+
+.prix.green{
+    color: #19b69a;
+}
+
+.old{
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* BOTTOM */
+
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.click{
+    background: #19b69a;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* FILTER */
+
+.filters{
+    display: flex;
+    gap: 3%;
+}
+
+.filters span{
+    color: gray;
+    cursor: pointer;
+}
+
+.filters .active{
+    color: #19b69a;
+    border-bottom: 2px solid #19b69a;
+}
+
+
+
+
+
+
+
+/* !the fourth section */
 .fourth-section {
   background: #06264a;
   padding: 60px 8%;
