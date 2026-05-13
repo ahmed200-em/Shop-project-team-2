@@ -248,6 +248,9 @@ padding-left: 100px;
   padding: 3% 6%;
   border-radius: 6px;
 }
+.btn1:hover{
+  background-color: #10d760
+}
 
 .btn2 {
   text-decoration: none;
@@ -255,6 +258,9 @@ padding-left: 100px;
   border: 1px solid gray;
   border-radius: 6px;
   padding: 3% 6%;
+}
+.btn2:hover{
+  background-color: white
 }
 
 
@@ -294,6 +300,9 @@ padding-left: 100px;
 .card img {
   width: 76%;
   display: flex;
+}
+.card img:hover{
+  transform: scale(1.08);
 }
 
 .small-tag2 {
@@ -852,4 +861,142 @@ padding-left: 100px;
 
 .newsletter button:hover {
   background: #008c7c;
+}
+/* FOOTER */
+
+footer {
+  background: white;
+  padding: 60px 10%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+}
+
+.footer-box h3 {
+  margin-bottom: 20px;
+  color: #111;
+  font-size: 20px;
+}
+
+.footer-box p {
+  color: #777;
+  line-height: 1.7;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footer-box a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  margin-bottom: 12px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.footer-box a:hover {
+  color: #00a693;
+  transform: translateX(5px);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: #777;
+  font-size: 14px;
+}
+.contact i{
+    color: #0d9488;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  color: gray;
+  
+}
+
+.store-btn:hover {
+  background: #00a693;
+  color: white;
+  border-color: #00a693;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.social-icons i {
+  width: 35px;
+  height: 35px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+  color: rgb(91, 91, 91);
+}
+
+.social-icons i:hover {
+  background: #00a693;
+  color: white;
+}
+
+/* BOTTOM FOOTER */
+
+.bottom-footer {
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+  padding-top: 25px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.payment-icons {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  /* flex-wrap: wrap; */
+  font-size: 22px;
+}
+
+.payment-icons i {
+  color: #555;
+  transition: 0.3s;
+}
+
+.payment-icons i:hover {
+  color: #00a693;
+}
+.last-p a{
+    text-decoration: none;
+    color: #0D9488;
+}
+.last-p {
+    margin-top: 10px;
 }
