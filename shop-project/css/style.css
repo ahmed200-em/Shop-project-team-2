@@ -47,13 +47,12 @@
 
 /* ?PARAGHRAPH */
 
-.container-para {
-  color: rgb(49, 131, 48);
-  padding-right: 6em;
+.container-para p{
+  color: #0D9488;
+  padding-right: 6rem;
 }
 
 /* !SECOND */
-
 .secondheader {
   /* width: 100%; */
   padding-top: 4%;
@@ -78,7 +77,7 @@
 /* !TITLE */
 
 .title i {
-  color: rgb(49, 131, 48);
+  color: #0D9488
 }
 
 /* !INPUT */
@@ -86,12 +85,14 @@
 .container-input {
 
   width: 35%;
-  border: 1px solid gray;
+  border: 1px solid rgb(174, 174, 174);
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 0 0 2rem;
+  padding: 5px 15px 5px 20px;
+
 
 }
 
@@ -99,6 +100,7 @@
   padding-right: 48%;
   padding-left: 0.5rem;
   border: none;
+  outline: none
 }
 
 .container-input i {
@@ -107,10 +109,11 @@
 
 .container-input button {
   border: none;
-  background-color: rgb(49, 131, 48);
+  background-color: #0D9488;
   border-radius: 5px;
   padding: 15px 25px 15px 25px;
   color: aliceblue;
+  cursor: pointer;
 }
 
 /* !ICON */
@@ -125,7 +128,7 @@
 
 .nmb {
   position: absolute;
-  background-color: rgb(49, 131, 48);
+  background-color: #0D9488;
   color: white;
   display: flex;
   align-items: center;
@@ -458,7 +461,7 @@ padding-left: 100px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 200vh;
+  height: 120vh;
 }
 
 /* this is the main image */
@@ -544,6 +547,9 @@ padding-left: 100px;
   justify-content: center;
   align-items: center;
 }
+.button-explore:hover{
+  background-color: #25c6b9;
+}
 
 /* this is the green explore button text a*/
 .button-explore a {
@@ -564,7 +570,10 @@ padding-left: 100px;
   height: 12rem;
   border-radius: 10px 10px 0 0;
 }
-
+.three-card-image1:hover{
+  transform: scale(1.04);
+  transition: 0.3;
+}
 /* ! styling thw whole card */
 .card-1 {
   /* margin: 20px; */
@@ -1021,7 +1030,7 @@ footer {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 63px;
+  gap: 100px;
 }
 
 .footer-box h3 {
